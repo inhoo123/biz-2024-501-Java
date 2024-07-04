@@ -25,13 +25,11 @@ public class HelloG {
 		 */
 		for (int i = 0; i < 100; i++) {
 			System.out.print(i + 1);
-			if (i) {
-
+			System.out.print(" ");
+			if ((i + 1) % 5 == 0) {
+				System.out.println();
 			}
-			if (i + 1 < 100) {
-				System.out.print(",");
 
-			}
 		}
 	}
 }
